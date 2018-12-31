@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8' />
+  <title>谢楚琳</title>
+  <style type="text/css">
+  	.button {
+  	  -webkit-transition-duration: 0.4s; /* Safari */
+  	  transition-duration: 0.4s;
+	  background-color: #555555; /* Black */
+	  color: white;
+	  padding: 10px 20px;
+	  margin: 5px;
+	  text-align: center;
+	  text-decoration: none;
+
+	  font-size: 16px;
+	}
+	.button:hover {
+	  
+	   background-color: white;
+	  color: black;
+	  border: 2px solid #555555; /* Black */
+	}
+	.button1 {
+  	  -webkit-transition-duration: 0.4s; /* Safari */
+  	  transition-duration: 0.4s;
+	  background-color: #af7073;/*red*/
+	  color: white;
+	  padding: 10px 20px;
+	  margin: 5px;
+	  text-align: center;
+	  text-decoration: none;
+
+	  font-size: 16px;
+	}
+	.button1:hover {
+      border: 2px solid  #af7073;
+	  background-color: white;
+	  color: black;
+	}
+    .button2 {
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      background-color: #4CAF50;/* Green */
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+      text-align: center;
+      text-decoration: none;
+
+      font-size: 16px;
+    }
+    .button2:hover {
+      border: 2px solid #4CAF50;/*  Green */
+      background-color: white;
+      color: black;
+    }
+
+    .button3 {
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      background-color: #7670af;
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+      text-align: center;
+      text-decoration: none;
+
+      font-size: 16px;
+    }
+    .button3:hover {
+      border: 2px solid #7670af;/* purple */
+      background-color: white;
+      color: black;
+    }
+
+    .mypath:hover{
+      opacity:0.7;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- plz insert your doms under the main div element -->
+  <div id="main">
+    <h1>Stacked Graphs – Geometry & Aesthetics</h1>
+  	<svg id="graph"></svg>
+  	<br>
+    <button class="button" onclick="changeMode(0)">Traditional Algorithm</button>
+    <button class="button" onclick="changeMode(1)">ThemeRiver Algorithm</button>
+    <button class="button" onclick="changeMode(2)">Wiggle Algorithm</button>
+    <button class="button" onclick="changeMode(3)">Weighted Wiggle Algorithm(Streamgraph)</button>
+
+    <br>
+    <button class="button1" onclick="changeColor(0)">Red Theme</button>
+    <button class="button2" onclick="changeColor(1)">Green Theme</button>
+    <button class="button3" onclick="changeColor(2)">Purple Theme</button>
+    <br>
+    <button class="button"  onclick="transition(1)">Update Dataset</button>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
