@@ -1,4 +1,4 @@
-# Force-Directed
+# Stacked-Graph
 Visualization with JavaScript based on the paper: http://leebyron.com/streamgraph/stackedgraphs_byron_wattenberg.pdf
 
 ## Demo
